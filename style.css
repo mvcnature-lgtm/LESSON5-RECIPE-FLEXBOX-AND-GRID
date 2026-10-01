@@ -1,0 +1,22 @@
+body{
+        font-family: "Roboto", sans-serif;
+    }
+
+.RECIPE-HEADER{
+    display: flex ;
+    align-items: center;
+    gap:50px;
+    border: 6px solid olivedrab;
+}
+.RECIPE-INGREDIENTS{
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    margin-top: 10px;
+    
+}
+
+.INGREDIENTS, .INSTRUCTIONS{
+  border: 6px solid rgb(172, 129, 49);
+  padding: 50px 50px 50px 200px;
+  margin-inline: 10px;
+}
